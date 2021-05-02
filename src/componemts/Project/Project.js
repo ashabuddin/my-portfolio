@@ -45,11 +45,13 @@ const Project = () => {
 
 
     return (
-        <div className='row justify-content-between bgColor'>
+       <div className='d-flex justify-content-around'>
+          <div className='row mt-5 pt-5 bgColor'>
             {
                 projects.map(project => <ProjectDetail project={project}></ProjectDetail> )
             }
-        </div>
+          </div>
+       </div>
     );
 };
 
