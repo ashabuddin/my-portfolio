@@ -26,26 +26,7 @@ const Contact = () => {
 
             <form className="contact-form" onSubmit={sendEmail}>
 
-                {/* <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="your name" />
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your email" />
-                </div>
-
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Subject</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="subject" />
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-
-
-                <input type="submit" value="Send" /> */}
+               
                 <input type="hidden" name="contact_number" />
             <label>Name</label>
             <br/>
